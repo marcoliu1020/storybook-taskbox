@@ -61,7 +61,7 @@ const meta = {
     title: 'TaskList',
     decorators: [(story) => <div style={{ margin: '3rem' }}>{story()}</div>],
     tags: ['autodocs'],
-    excludeStories: /.*MockedState$/,
+    excludeStories: /.*MockedState$/, // 因為我們在這個檔案中定義 MockedState 且 export 了，所以需要排除它
 } satisfies Meta<typeof TaskList>;
 
 export default meta;
