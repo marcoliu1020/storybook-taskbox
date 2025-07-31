@@ -56,5 +56,6 @@ export const Hi: Story = {
   args: {
     size: "small",
     label: "Hi Marco",
+    backgroundColor: "#ff6b6b",
   },
 };
