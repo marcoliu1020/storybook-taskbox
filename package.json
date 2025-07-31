@@ -26,7 +26,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_08a4ef142fe0f1a"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
