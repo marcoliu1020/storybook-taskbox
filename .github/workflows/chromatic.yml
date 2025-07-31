@@ -21,5 +21,5 @@ jobs:
         # Options required for Chromatic's GitHub Action
         with:
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
-          projectToken: ${{ 688a47faa8539e6b5a1c4b59 }}
+          projectToken: ${{ chpt_08a4ef142fe0f1a }}
           token: ${{ STORYBOOK_TASKBOX }}
