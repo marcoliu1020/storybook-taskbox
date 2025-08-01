@@ -31,6 +31,7 @@ export default function InboxScreen() {
         <div className="page lists-show">
             <nav>
                 <h1 className="title-page">Taskbox</h1>
+                <h2 hidden className='text-pink-500 text-6xl'>test tailwind style</h2>
             </nav>
             <TaskList />
         </div>
